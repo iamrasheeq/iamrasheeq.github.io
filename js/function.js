@@ -9,8 +9,6 @@ var sections = [
 		},
 		{	sentence: "I love Books and Machines",
 		},
-		{	sentence: "Error C://life.run, no contexts for life were found",
-		},
 		{	sentence: "I write spells for computers",
 		},
 		{	sentence: "I like to Get Shit Done",
