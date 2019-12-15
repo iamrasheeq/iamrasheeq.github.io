@@ -5,7 +5,7 @@
 var sections = [
 		{	sentence: "This is Rasheeq Ishmam",
 		},
-		{	sentence: "I am an Inventor",
+		{	sentence: "I am an Innovator",
 		},
 		{	sentence: "I love Books and Machines",
 		},
