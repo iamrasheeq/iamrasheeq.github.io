@@ -5,13 +5,13 @@
 var sections = [
 		{	sentence: "This is Rasheeq Ishmam",
 		},
-		{	sentence: "I am an Innovator",
+		{	sentence: "CS Undergrad",
 		},
 		{	sentence: "I love Books and Machines",
 		},
 		{	sentence: "I write spells for computers",
 		},
-		{	sentence: "I like to Get Shit Done",
+		{	sentence: "I like to Get The Shit Done",
 		},
 		
 		
