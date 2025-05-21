@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rasheeq Ishmam</title>
+  <meta name="author" content="Rasheeq Ishmam">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 5 CSS -->
+   <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+  >
+  
+  <!-- Your Custom Stylesheet (Merged CSS) -->
+  <link rel="stylesheet" href="wip_stylesheet.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/icon.jpeg">
+</head>
+<body>
+
+<!-- NAVBAR (example) -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <!-- Brand -->
+      <!-- <a class="navbar-brand fw-bold" href="index.html">Rasheeq Ishmam</a> -->
+      <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false" 
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Nav Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <!-- Example links -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>          
+          
+          <li class="nav-item">
+              <a class="nav-link" href="activities.html">Activities</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- MAIN CONTENT -->
+<div class="container my-5">
+
+  <!-- HEADER / INTRO -->
+  <div class="row align-items-center">
+    <div class="col-md-8 text-md-start mb-3">
+      <!-- We replace <name> tag with .name-large or just use an H1 -->
+      <h1 class="name-large fw-bold">Rasheeq Ishmam</h1>
+      <p>ri24c at fsu dot edu</p>
+      <p>
+        I'm Rasheeq Ishmam, currently pursuing a Master's in Computer Science with a focus on Cybersecurity at Florida State University.
+      </p>
+      
+      <p>
+        Previously, I worked as a Software Engineer at Nippzon Technologies, where I developed AI-based tools for Japan’s broadcasting industry, including video and audio anomaly detection and automated Japanese text correction. I have experience with C++, Python, Swift, and Solidity, as well as tools like SwiftUI, Docker, Git, and PostgreSQL.
+      </p>
+      
+
+      <p>
+        Outside of academics, I’ve earned recognition at multiple national and international hackathons, including HackNSU and the KIBO Robot Programming Challenge by JAXA. I’m passionate about solving real-world problems using secure, scalable technology.
+      </p>
+      
+            <p>My research interests include Pattern Recognition, Graph Neural Networks, Bioinformatics, Machine Learning, and Blockchain.</p>
+     
+      <div class="social-links d-flex gap-3">
+        <a href="https://www.linkedin.com/in/rasheeqishmam" target="_blank" aria-label="LinkedIn">
+          <i class="bi bi-linkedin" style="font-size: 1.6rem;"></i>
+        </a>
+        <a href="https://github.com/iamrasheeq" target="_blank" aria-label="GitHub">
+          <i class="bi bi-github" style="font-size: 1.6rem;"></i>
+        </a>
+        <a href="documents/RasheeqIshmam_Resume_MS_Cyber-3.pdf" target="_blank" class="btn btn-outline-primary btn-sm" rel="noopener">
+        Resume <i class="bi bi-download ms-1"></i>
+        </a>
+        
+        
+      </div>
+      
+          
+    </div>
+    <div class="col-md-4 text-center">
+      <a href="images/rasheeqPhoto.jpg">
+        <img 
+          src="images/rasheeqPhoto.jpg" 
+          alt="profile photo" 
+          class="profile-image" 
+        >
+      </a>
+    </div>
+  </div>
+  
+ 
+
+  <!-- WORK EXPERIENCE SECTION -->
+<hr class="section-divider" />
+<h2 class="custom-heading" id="experience">Work Experience</h2>
+
+<div class="mb-4">
+  <h5 class="mb-1">Software Engineer – Nippzon Technologies Co., Ltd.</h5>
+  <p class="text-muted mb-1"><em>Dhaka, Bangladesh | Jan 2023 – Aug 2024</em></p>
+  <ul>
+    <li>Developed an AI-based file analysis tool for Japanese cable TV and broadcasting companies.</li>
+    <li>Implemented video/audio anomaly detection (e.g., black screen, screen freeze, loudness issues).</li>
+    <li>Created algorithms to detect and correct Japanese text errors to ensure content compliance.</li>
+  </ul>
+</div>
+
+
+<!-- PROJECTS SECTION -->
+<hr class="section-divider" />
+<h2 class="custom-heading" id="projects">Projects</h2>
+
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+
+  
+
+  <!-- Project 1 -->
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h6 class="card-title fw-bold">Bangla Conversational Agent Dialogue Dataset</h6>
+        <p><strong>Technologies:</strong> Google Translate API, NLP</p>
+        <ul>
+          <li>Built a dataset with 1050 Bangla conversations and 13,953 task-based dialogues using the Taskmaster-2 food ordering domain.</li>
+          <li>Annotated 5,187 intent and entity tags for training Bangla task-oriented dialogue systems.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h6 class="card-title fw-bold">HazardSafety App</h6>
+        <p><strong>Technologies:</strong> Dart, Flutter</p>
+        <ul>
+          <li>Built a mobile app to calculate safe separation distances for various chemical hazards.</li>
+          <li>Designed for chemical plant workers to prevent disasters and increase awareness of chemical risks.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Project 6 -->
+<div class="col">
+  <div class="card h-100 shadow-sm">
+    <div class="card-body">
+      <h6 class="card-title fw-bold">Local File Synchronization Tool</h6>
+      <p><strong>Technologies:</strong> C++, STL, Multithreading, File I/O</p>
+      <ul>
+        <li>Built a desktop utility to monitor a folder and automatically sync changes (create, update, delete) to a backup location.</li>
+        <li>Used hashing to detect modified files and avoid redundant copying.</li>
+        <li>Implemented basic multithreading to handle file scanning and copying concurrently.</li>
+        <li>Designed for local use — useful for creating incremental backups or syncing between drives.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+  <!-- Project 3 -->
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h6 class="card-title fw-bold">Blockchain-Based EHR System</h6>
+        <p><strong>Technologies:</strong> Solidity</p>
+        <ul>
+          <li>Developed a decentralized health record system providing remote patients secure access to specialist doctors.</li>
+          <li>Incorporated a specialized blockchain-based financial model for rural healthcare services.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 4 -->
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h6 class="card-title fw-bold">Bhumi-Potro</h6>
+        <p><strong>Technologies:</strong> Solidity</p>
+        <ul>
+          <li>Created a decentralized land/property registry system enabling secure transactions and ownership protection.</li>
+          <li>Implemented smart contracts for automation of approvals, payments, and transfers.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 5 -->
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h6 class="card-title fw-bold">Hunter – Inventory Management System</h6>
+        <p><strong>Technologies:</strong> Python3, Django</p>
+        <ul>
+          <li>Designed and built during a 72-hour hackathon for local businesses.</li>
+          <li>Helped local vendors efficiently track inventory with a user-friendly interface.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- PROJECT IMAGES SHOWCASE -->
+<hr class="section-divider" />
+<h4 class="mb-3"><strong>Project Snapshots</strong></h4>
+
+<div class="row g-4">
+  <!-- HazardSafety GIF -->
+  <!-- HazardSafety GIF (larger) -->
+<div class="col-md-4 text-center">
+  <img src="https://media.giphy.com/media/Vh7xxHYct13uWVkZib/giphy.gif" alt="HazardSafety App" class="img-fluid rounded shadow" style="max-height: 280px;">
+  <p class="mt-2">HazardSafety App</p>
+</div>
+
+
+  <!-- Bhumi-Potro Image -->
+  <div class="col-md-4 text-center">
+    <img src="images/bhumiPotro.png" alt="Bhumi-Potro" class="img-fluid rounded shadow" style="max-height: 280px;">
+    <p class="mt-2">Bhumi-Potro Blockchain System</p>
+  </div>
+
+  <!-- Data JSON Screenshot (optional) -->
+  <div class="col-md-4 text-center">
+    <img src="images/inventory.png" alt="Inventory Management" class="img-fluid rounded shadow" style="max-height: 280px;">
+    <p class="mt-2">Inventory Management System</p>
+  </div>
+</div>
+
+
+<!-- FOOTER -->
+<hr class="section-divider" />
+<footer class="text-center text-muted py-3" style="font-size: 0.9rem;">
+  <p>
+    &copy; 2025 Rasheeq Ishmam &nbsp;|&nbsp; 
+    <a href="mailto:ri24c@fsu.edu">ri24c@fsu.edu</a> &nbsp;|&nbsp;
+    <a href="https://github.com/iamrasheeq" target="_blank">GitHub</a> &nbsp;|&nbsp;
+    <a href="https://linkedin.com/in/iamrasheeq" target="_blank">LinkedIn</a>
+  </p>
+  <p>
+    Last updated May 2025. &nbsp;♥ Template is adapted from <a href="https://github.com/jonbarron/jonbarron_website">here</a>.
+  </p>
+</footer>
+
+<!-- CV Preview Modal -->
+<div class="modal fade" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="cvModalLabel">CV Preview</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="height: 80vh;">
+        <iframe src="documents/RasheeqIshmam_Resume_MS_Cyber-3.pdf" width="100%" height="100%" style="border: none;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Bootstrap JS (needed for navbar toggling, etc.) -->
+<script 
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+</script>
+
+
+
+</body>
+</html>
